@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ping - Coming Soon</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Logo -->
+    <img class="logo" src="assets/images/logo.svg" alt="Logo ping" />
+
+    <!-- Main text -->
+    <section class="text">
+      <h1>We are launching <strong>soon!</strong></h1>
+      <p>Subscribe and get notified</p>
+    </section>
+
+    <!-- E-mail input -->
+    <form>
+      <div class="input-container">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email address..."
+        />
+        <button type="submit">Notify Me</button>
+      </div>
+      <p class="error">Please provide a valid email adress</p>
+      <p class="valid">Thanks for your subscription!</p>
+    </form>
+
+    <!-- Image -->
+    <div class="dashboard">
+      <img
+        src="assets/images/illustration-dashboard.png"
+        alt="Illustration du dashboard"
+      />
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <a class="facebook">
+        <img
+          src="assets/images/icons8-f-30.png"
+          onmouseover="change1()"
+          onmouseout="change2()"
+          alt="Logo facebook"
+        />
+      </a>
+      <a class="twitter">
+        <img
+          src="assets/images/icons8-twitter-30.png"
+          onmouseover="change3()"
+          onmouseout="change4()"
+          alt="Logo twitter"
+        />
+      </a>
+      <a class="instagram">
+        <img
+          src="assets/images/icons8-instagram-30.png"
+          onmouseover="change5()"
+          onmouseout="change6()"
+          alt="Logo instagram"
+        />
+      </a>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
