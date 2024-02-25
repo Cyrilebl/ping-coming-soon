@@ -1,10 +1,11 @@
 :root {
+  /* Text color */
   --gray: hsl(0, 0%, 59%);
   --darkBlue: hsl(209, 33%, 12%);
   --red: hsl(354, 100%, 66%);
 
+  /* Background color */
   --blue: hsl(223, 87%, 63%);
-
   --PaleBlue: hsl(223, 100%, 88%);
 }
 
