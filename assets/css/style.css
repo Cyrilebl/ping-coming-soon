@@ -19,19 +19,24 @@ body {
   font-family: "Libre Franklin", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  height: 130vh;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 50px 5px;
 }
 
 /* Logo */
 
 .logo {
+  text-align: center;
   margin-bottom: 40px;
 }
 
 /* Main text */
+
+.text {
+  text-align: center;
+}
 
 .text h1 {
   font-weight: 300;
@@ -54,6 +59,7 @@ body {
 /* E-mail input */
 
 form {
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -113,11 +119,19 @@ form {
 
 /* Image */
 
+.dashboard {
+  text-align: center;
+}
+
 .dashboard img {
   width: 50%;
 }
 
 /* Footer */
+
+footer {
+  text-align: center;
+}
 
 footer a {
   margin-left: 10px;
@@ -144,12 +158,6 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-  /* Logo */
-
-  .logo {
-    width: 20%;
-  }
-
   /* Main text */
 
   .text h1 {
@@ -204,9 +212,5 @@ footer p {
 
   footer img {
     margin-top: 120px;
-  }
-
-  footer p {
-    font-size: 0.7em;
   }
 }
